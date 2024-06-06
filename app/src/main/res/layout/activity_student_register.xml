@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentRegisterActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        />
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/topview"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/maroon_500"
+                />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@drawable/wave66"
+                android:rotationX="-180"
+                android:layout_below="@id/topview" /> <!-- Added layout_below attribute -->
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="55dp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:text="@string/registertext"
+                android:textColor="@color/white"
+                android:textSize="52sp"
+                android:textStyle="normal"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/studentname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/textbg"
+            android:drawableStart="@drawable/ic_baseline_person_24new"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/maroon_700"
+            android:textSize="18sp"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/stuemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/textbg"
+            android:drawableStart="@drawable/ic_baseline_email_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="E-Mail"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/maroon_700"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/stuphone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:maxLength="10"
+            android:background="@drawable/textbg"
+            android:drawableStart="@drawable/ic_baseline_phone_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="@string/phone_nmber"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/maroon_700"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_indian_states"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:padding="6dp"
+            android:textSize="18sp"
+            android:text="@string/bus_route_number"
+            android:textColor="@color/maroon_700"
+            android:focusable="true"
+            android:focusableInTouchMode="true"/>
+
+
+        <Spinner
+            android:id="@+id/spinner_routes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp" />
+
+        <TextView
+            android:id="@+id/textView_indian_districts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:padding="6dp"
+            android:text="@string/bus_stop_name"
+            android:textColor="@color/maroon_700"
+            android:focusable="true"
+            android:textSize="18sp"
+            android:focusableInTouchMode="true" />
+
+        <Spinner
+            android:id="@+id/spinner_stop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="20dp" />
+
+        <EditText
+            android:id="@+id/sturollno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/textbg"
+            android:drawableStart="@drawable/ic_baseline_id_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="@string/university_id_number"
+            android:inputType="number"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/maroon_700"
+            android:textSize="18sp"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/spassword1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/textbg"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/maroon_700"
+            android:textSize="18sp"
+            android:autofillHints="" />
+        <EditText
+            android:id="@+id/spassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/textbg"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="@string/confirm_password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/maroon_700"
+            android:textSize="18sp"
+            android:autofillHints="" />
+        <ProgressBar
+            android:id="@+id/progressBarStu"
+            android:layout_marginTop="10dp"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateTint="#FF9800"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonregisters"
+            app:cornerRadius="50dp"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:text="@string/submit" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="25dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/textView6"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textColor="@color/maroon_500"
+                    android:textSize="20sp"
+                    android:text="Name: " />
+                <TextView
+                    android:id="@+id/stunamer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="2dp"
+                    android:textColor="#051B93"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:textSize="20sp"
+                    android:hint="Loading..." />
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textVie6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Roll Number: "
+                        android:textColor="@color/maroon_500"
+                        android:textSize="20sp"
+                        android:fontFamily="@font/ubuntu_medium" />
+
+                    <TextView
+                        android:id="@+id/stunrollr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textStyle="bold"
+                        android:hint="Loading..."
+                        android:textColor="#051B93"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+
+
+                <TextView
+                    android:id="@+id/textView677"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/ubuntu_medium"
+                    android:textColor="@color/maroon_500"
+                    android:textSize="20sp"
+                    android:text="Stop Name: " />
+                <TextView
+                    android:id="@+id/stustopr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:textColor="#051B93"
+                    android:layout_marginTop="2dp"
+                    android:textSize="20sp"
+                    android:hint="Loading..." />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textVi6477"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/ubuntu_medium"
+                        android:textColor="@color/maroon_500"
+                        android:textSize="20sp"
+                        android:text="Pass Status: " />
+                    <TextView
+                        android:id="@+id/statusr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#051B93"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:hint="Loading..."/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView6477"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/ubuntu_medium"
+                        android:textColor="@color/maroon_500"
+                        android:textSize="20sp"
+                        android:text="Phone Number: " />
+                    <TextView
+                        android:id="@+id/stuphr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:textColor="#051B93"
+                        android:textSize="20sp"
+                        android:hint="Loading..." />
+                </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/approvepass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Approve"
+                app:cornerRadius="10dp"
+                />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/disapprovepass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:text="Disapprove"
+                app:cornerRadius="10dp"
+                />
+
+
+        </LinearLayout>
+            </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

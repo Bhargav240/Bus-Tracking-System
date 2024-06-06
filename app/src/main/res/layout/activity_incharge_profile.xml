@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Incharge.InchargeProfileActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ProgressBar
+            android:id="@+id/progressBari"
+            android:background="@color/maroon_500"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateTint="#FF9800"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        />
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/topview"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/maroon_500"
+                />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@drawable/wave66"
+                android:rotationX="-180"
+                android:layout_below="@id/topview" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="55dp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:text="Profile"
+                android:textColor="@color/white"
+                android:textSize="52sp"
+                android:textStyle="normal"
+                android:layout_alignParentTop="true"
+                />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="40dp"
+                app:srcCompat="@drawable/studenticon" /><!-- Added layout_below attribute -->
+
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+        <TextView
+            android:id="@+id/text111"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25sp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="#04177E"
+            android:text="ID Number:" />
+            <TextView
+                android:id="@+id/inId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:padding="3dp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:textColor="#FFE6633A"
+                android:text="00000" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/text1211"
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:textColor="#04177E"
+                android:text="Bus Route Number:" />
+            <TextView
+                android:id="@+id/inbus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:padding="3dp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:textColor="#E6633A"
+                android:text="00" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="@color/maroon_500"
+            android:text="Reset Password" />
+
+        <EditText
+            android:id="@+id/newpass1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/textbg"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="New Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/maroon_700"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/newpass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/textbg"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:drawablePadding="5dp"
+            android:ems="10"
+            android:hint="Confirm New Password"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:paddingEnd="8dp"
+            android:textColor="@color/maroon_700"
+            android:textSize="18sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/reset"
+            app:cornerRadius="50dp"
+            android:textSize="18sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="reset" />
+
+    </LinearLayout>
+</ScrollView>

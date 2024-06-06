@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="15dp"
+    android:elevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/topview"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/maroon_500" />
+
+        <View
+            android:id="@+id/view2"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/topview"
+            android:background="@drawable/wave66"
+            android:rotationX="-180" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/view2"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/studenticon" />
+
+        <TextView
+            android:id="@+id/t1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/img1"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/ubuntu_medium"
+            android:text="This is demo Text"
+            android:textAlignment="center"
+            android:textColor="@color/maroon_500"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <View
+            android:id="@+id/bottomview"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/bottomview2"
+            android:background="@color/maroon_500" />
+
+        <View
+            android:id="@+id/bottomview2"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_below="@+id/t1"
+            android:background="@drawable/wave66"
+            android:rotationY="-180" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

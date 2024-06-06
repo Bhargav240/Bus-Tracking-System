@@ -1,0 +1,479 @@
+<resources>
+    <string name="app_name">BusMobileApp</string>
+    <string name="register"><u>Register as Student</u></string>
+    <string name="already_have_an_account">Don\'t have an account?</string>
+    <string name="driver">Driver</string>
+    <string name="incharge">Incharge</string>
+    <string name="student">Student</string>
+    <string name="register_as">Login as</string>
+    <string name="let_s_get_nstarted">Let\'s Get \nStarted</string>
+    <string name="registertext">Register</string>
+    <string name="university_id_number">University ID Number</string>
+    <string name="phone_nmber">Phone Number</string>
+    <string name="submit">Submit</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="password">Password</string>
+    <string name="bus_stop_name">Bus Stop Name*</string>
+    <string name="bus_route_number">Bus Route Number*</string>
+    <string name="name">Name</string>
+    <string name="login">Login</string>
+    <string name="student_login">Student Login</string>
+    <string name="e_mail">E-Mail</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="incharge_login">Incharge Login</string>
+    <string name="driver_login">Driver Login</string>
+    <string-array name="array_bus_routes">
+        <item>Select Your Bus Route No.</item>
+        <item>Route No.1</item>
+        <item>Route No.2</item>
+        <item>Route No.3</item>
+        <item>Route No.4</item>
+        <item>Route No.5</item>
+        <item>Route No.6</item>
+        <item>Route No.7</item>
+        <item>Route No.8</item>
+        <item>Route No.9</item>
+        <item>Route No.10</item>
+        <item>Route No.11</item>
+        <item>Route No.12</item>
+        <item>Route No.13</item>
+        <item>Route No.14</item>
+        <item>Route No.15</item>
+        <item>Route No.16</item>
+        <item>Route No.17</item>
+        <item>Route No.18</item>
+        <item>Route No.19</item>
+        <item>Route No.20</item>
+        <item>Route No.21</item>
+        <item>Route No.22</item>
+        <item>Route No.23</item>
+        <item>Route No.24</item>
+        <item>Route No.25</item>
+        <item>Route No.26</item>
+        <item>Route No.27</item>
+    </string-array>
+    <string-array name="array_default_stop">
+        <item>Select Your Bus Stop</item>
+    </string-array>
+    <string-array name="array_route1_names">
+        <item>Select Your Bus Stop</item>
+        <item>ODF</item>
+        <item>SHANKAR PALLY</item>
+        <item>BDL</item>
+        <item>BHANURU</item>
+        <item>PATANCHERUVU</item>
+        <item>R C PURAM</item>
+        <item>BEERAMGUDA</item>
+        <item>ASHOK NAGAR</item>
+        <item>JYOTHI NAGAR</item>
+        <item>LINGAMPALLY</item>
+        <item>GULMOHAR PARK</item>
+        <item>HCU</item>
+        <item>HERITAGE</item>
+        <item>MASEED BANDA</item>
+        <item>HIMAGIRI</item>
+        <item>GACHIBOWALI</item>
+        <item>ORR</item>
+    </string-array>
+
+    <string-array name="array_route2_names">
+        <item>Select Your Bus Stop</item>
+    </string-array>
+
+    <string-array name="array_route3_names">
+        <item>Select Your Bus Stop</item>
+        <item>CHANDANAGAR</item>
+        <item>GANGARAM</item>
+        <item>DEEPTHI SRI NAGAR</item>
+        <item>MADINA GUDA</item>
+        <item>MIYAPUR ALLWYN X-ROAD</item>
+        <item>HAFEEZPET</item>
+        <item>KONDAPUR</item>
+        <item>KOTHAGUDA</item>
+        <item>BOTANICAL GARDEN</item>
+        <item>GACHIBOWLI ORR</item>
+    </string-array>
+
+    <string-array name="array_route4_names">
+        <item>Select Your Bus Stop</item>
+        <item>BACHUPALLY</item>
+        <item>PRAGATHI NAGAR</item>
+        <item>HYDERNAGAR</item>
+        <item>KALVARI TEMPLE</item>
+        <item>METRO STATION KALVERI TEMPLE</item>
+        <item>MIYAPUR</item>
+        <item>D-MART</item>
+        <item>HDFC</item>
+        <item>NAREN GARDENS</item>
+        <item>MIYAPUR ALLWYN X-ROAD</item>
+        <item>HAFEEZPET</item>
+        <item>KONDAPUR</item>
+        <item>KOTHAGUDA SIGNAL</item>
+        <item>BOTANICAL GARDEN</item>
+        <item>GACHIBOWLI ORR</item>
+    </string-array>
+
+    <string-array name="array_route5_names">
+        <item>Select Your Bus Stop</item>
+        <item>BACHUPALLY</item>
+        <item>NIZAMPET</item>
+        <item>JNTU</item>
+        <item>FORUM MALL</item>
+        <item>HI-TECH CITY</item>
+        <item>AVASA HOTEL</item>
+        <item>INORBIT MALL</item>
+        <item>BIO DIVERSITY</item>
+        <item>OLD COMISSIONER OFFICE</item>
+        <item>GACHIBOWLI ORR</item>
+    </string-array>
+
+    <string-array name="array_route6_names">
+        <item>Select Your Bus Stop</item>
+        <item>SURARAM</item>
+        <item>SUB STATION</item>
+        <item>SHAPUR NAGAR</item>
+        <item>SRINIVASA NAGAR COLONY</item>
+        <item>USHA MULLAPUDI</item>
+        <item>RAMKI</item>
+        <item>DWARAKA NAGAR</item>
+        <item>YELLAMMA BANDA</item>
+        <item>TULASIVANAM</item>
+        <item>SOUTH INDIA SHOPPING MALL</item>
+        <item>JNTU</item>
+        <item>FORUM MALL</item>
+        <item>HI-TECH CITY</item>
+        <item>BIO-DIVERSITY</item>
+        <item>GACHIBOWLI ORR</item>
+    </string-array>
+
+    <string-array name="array_route7_names">
+        <item>Select Your Bus Stop</item>
+        <item>QUTBULLAPUR</item>
+        <item>CHINTAL</item>
+        <item>IDPL</item>
+        <item>RANGAREDDY NAGAR</item>
+        <item>JAGADGIRIGUTTA</item>
+        <item>ALLWYN COLONY</item>
+        <item>VIVEKANANDA NAGAR GATE 1</item>
+        <item>JNTU</item>
+        <item>FORUM MALL</item>
+        <item>HITECH CITY MMTS</item>
+        <item>CYBER TOWERS</item>
+        <item>GOOGLE OFFICE</item>
+        <item>KOTHAGUDA X ROAD</item>
+        <item>GACHIBOWLI ORR</item>
+    </string-array>
+
+    <string-array name="array_route8_names">
+        <item>Select Your Bus Stop</item>
+        <item>ALWAL</item>
+        <item>KOMPALLY</item>
+        <item>KOMPALLY</item>
+        <item>DAIRY FORM</item>
+        <item>MMR GARDENS</item>
+        <item>OLD BWOINPALLY</item>
+        <item>BBR HOSPITAL, BALANAGAR</item>
+        <item>BALKAMPET</item>
+        <item>S.R. NAGAR PS</item>
+        <item>S.R. NAGAR METRO STATION</item>
+        <item>MAITRYVANAM</item>
+        <item>KLM SHOPPING MALL</item>
+    </string-array>
+
+    <string-array name="array_route9_names">
+        <item>Select Your Bus Stop</item>
+        <item>MOTHI NAGAR</item>
+        <item>E S I</item>
+        <item>ERRAGADDA</item>
+        <item>BHARATH NAGAR</item>
+        <item>MOOSAPET</item>
+        <item>MOOSAPET</item>
+        <item>BALAJI NAGAR MAIN ROAD</item>
+        <item>B.J.P OFFICE</item>
+        <item>RAINBOW VISTAS</item>
+        <item>HI-TECH CITY</item>
+        <item>BIO DIVERSITY</item>
+        <item>RAYA DURGAM (P.S)</item>
+        <item>CHITRAPURI COLONY</item>
+        <item>NANAKRAM GUDA</item>
+    </string-array>
+
+    <string-array name="array_route10_names">
+        <item>Select Your Bus Stop</item>
+        <item>MYTHRIVANAM (SARATHI STUDIO)</item>
+        <item>YOUSUFGUDA (HYD BIRAYANI HOUSE)</item>
+        <item>YOUSUFGUDA CHECKPOST</item>
+        <item>KRISHNA NAGAR</item>
+        <item>VENKATAGIRI(CITY OFFICE)</item>
+        <item>JUBLI HILLS CHECKPOST</item>
+        <item>FILM NAGAR</item>
+        <item>SHAIKPET</item>
+        <item>DILIP SUPER MARKET</item>
+        <item>MARUTHI SUZUKI SHOW ROOM</item>
+        <item>MANIKONDA</item>
+        <item>MANIKONDA WATER TANK</item>
+        <item>NARSING X-ROAD</item>
+    </string-array>
+
+    <string-array name="array_route11_names">
+        <item>Select Your Bus Stop</item>
+        <item>RAMPALLY VILLAGE</item>
+        <item>SATYANARAYANACOLONY</item>
+        <item>RAMPALLY</item>
+        <item>NAGARAM</item>
+        <item>KUSHAIGUDA</item>
+        <item>ECIL</item>
+        <item>H B COLONY</item>
+        <item>N F C</item>
+        <item>MALLAPUR</item>
+        <item>HMT NAGAR</item>
+        <item>HABSIGUDA</item>
+        <item>TARNAKA</item>
+        <item>PADMARAONAGAR COLONY</item>
+        <item>KAVADIGUDA</item>
+        <item>TELUGUTALLY FLYOWER</item>
+        <item>LAKADIKAPOOL</item>
+        <item>MEHIDIPATNAM</item>
+        <item>NANALNAGAR</item>
+        <item>LANGARHOSE</item>
+        <item>SUNCITY</item>
+        <item>KALIMANDIR</item>
+    </string-array>
+
+    <string-array name="array_route12_names">
+        <item>Select Your Bus Stop</item>
+        <item>DAMMAIGUDA</item>
+        <item>RADHIKA</item>
+        <item>ASHOK NAGAR</item>
+        <item>A S RAO NAGAR</item>
+        <item>SHARADA</item>
+        <item>SAINIKPURI</item>
+        <item>NEREDMET</item>
+        <item>RAMAKRISHNAPURAM GATE</item>
+        <item>AOC</item>
+        <item>EAST MAREDPALLY</item>
+        <item>PATNY, PARADISE (MIDDLE)</item>
+        <item>BEGUMPET (PRAKASH NAGAR)</item>
+        <item>BEGUMPET (PRAKASH NAGAR)</item>
+        <item>LIFE STYLE</item>
+        <item>GVK MALL</item>
+        <item>VIRINCHI</item>
+        <item>MEHIDIPATNAM</item>
+        <item>LANGAR HOUSE</item>
+        <item>SUN CITY</item>
+    </string-array>
+
+    <string-array name="array_route13_names">
+        <item>Select Your Bus Stop</item>
+        <item>NEREDMET (OLD P.S)</item>
+        <item>THREE TEMPLES</item>
+        <item>VINAYAK NAGAR</item>
+        <item>KRUPA COMPLEX</item>
+        <item>SAFILGUDA</item>
+        <item>ANANDH BAGH</item>
+        <item>ANUTEX (MALKAJGIRI)</item>
+        <item>TUKARAM GATE(NALLAPOCHAMMA)</item>
+        <item>METTUGUDA</item>
+        <item>BEGUMPET (PRAKASH NAGAR)</item>
+        <item>BEGUMPET (PARADISE)</item>
+        <item>LIFE STYLE</item>
+        <item>SOMAJIGUDA</item>
+        <item>KAIRATHABAD SIGNAL</item>
+        <item>LAKADIKAPOOL</item>
+        <item>MEHIDIPATNAM</item>
+        <item>LANGAR HOUSE</item>
+        <item>SUN CITY</item>
+    </string-array>
+
+    <string-array name="array_route14_names">
+        <item>Select Your Bus Stop</item>
+        <item>BODUPPAL</item>
+        <item>AMBEDKAR STATUE</item>
+        <item>CHILKANAGAR</item>
+        <item>H.M.T. NACHARAM</item>
+        <item>HABSIGUDA SIGNAL</item>
+        <item>ADIKMET</item>
+        <item>HINDI MAHA VIDYALAYA</item>
+        <item>V.S.T.</item>
+        <item>RTC X ROAD</item>
+        <item>INDIRA PARK (ASHOK NAGAR)</item>
+        <item>LAKDI KA POOL</item>
+        <item>MASAB TANK</item>
+        <item>MEHIDIPATNAM</item>
+        <item>LANGER HOUSE</item>
+        <item>KALI MANDIR</item>
+    </string-array>
+
+    <string-array name="array_route15_names">
+        <item>Select Your Bus Stop</item>
+        <item>PEERZADIGUDA</item>
+        <item>UPPAL X ROAD</item>
+        <item>UPPAL STADIUM</item>
+        <item>RAMANTHAPUR(CHURCH)</item>
+        <item>RAMANTHAPUR(HPS)</item>
+        <item>RAMANTHAPUR(T.V.STUDIO)</item>
+        <item>AMBERPET (GANDHI STATUE)</item>
+        <item>AMBERPET (TEMPLE)</item>
+        <item>6 NO. JUNCTION</item>
+        <item>FEVER HOSPITAL</item>
+        <item>NARAYANAGUDA (YMCA)</item>
+        <item>MEHIDIPATNAM</item>
+        <item>LANGER HOUSE</item>
+        <item>SUN CITY</item>
+    </string-array>
+
+    <string-array name="array_route16_names">
+        <item>Select Your Bus Stop</item>
+        <item>THATTI ANNARAM</item>
+        <item>INDU ARANYA</item>
+        <item>MANSURABAD</item>
+        <item>KAMINENI</item>
+        <item>ROCK TOWN</item>
+        <item>SWAGATH GRAND (Alkapuri)</item>
+        <item>NAGOLE</item>
+        <item>MOHAN NAGAR</item>
+        <item>OMINI</item>
+        <item>ASTA LAKSHMI TEMPLE</item>
+        <item>NTR NAGAR</item>
+        <item>L B NAGAR</item>
+        <item>SAGAR RING ROAD</item>
+    </string-array>
+
+    <string-array name="array_route17_names">
+        <item>Select Your Bus Stop</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="array_route18_names">
+        <item>Select Your Bus Stop</item>
+        <item>AMBERPET</item>
+        <item>HAYATH NAGAR</item>
+        <item>SUSHMA THEATRE</item>
+        <item>PANAMA</item>
+        <item>CHINTAL KUNTA X-ROAD</item>
+        <item>SAGAR RING ROAD</item>
+        <item>BAIRAMAL GUDA</item>
+        <item>KARMANGHAT X-ROAD</item>
+        <item>GREENPARK COLONY</item>
+        <item>CHAMPAPET</item>
+        <item>SANTHOSH NAGAR</item>
+        <item>OWASI HOSPITAL</item>
+    </string-array>
+
+    <string-array name="array_route19_names">
+        <item>Select Your Bus Stop</item>
+        <item>IBRAHIMPATNAM</item>
+        <item>RAGANNAGUDA</item>
+        <item>GURRAMGUDA</item>
+        <item>NADARGUL</item>
+        <item>BADANGPET</item>
+        <item>BALAPUR X ROAD</item>
+        <item>MEERPET X ROADS</item>
+        <item>JILLAGUDA MUNICIPALOFFICE</item>
+        <item>JILLAGUD ASWAGATH GRAND</item>
+        <item>MANDAMALLAMMA GARDENS</item>
+        <item>BABANAGAR</item>
+        <item>CHANDRAYAN GUTTA</item>
+        <item>DURGA NAGAR</item>
+    </string-array>
+
+    <string-array name="array_route20_names">
+        <item>Select Your Bus Stop</item>
+        <item>YAMJAL (ANDRA BANK OPP)</item>
+        <item>FLY TECH AVIATION</item>
+        <item>SAGAR COMPLEX</item>
+        <item>B N REDDY X-ROAD</item>
+        <item>HASTINAPURAM</item>
+        <item>OMKAR NAGAR</item>
+        <item>SAGAR RING ROAD</item>
+        <item>BAIRAMALGUDA</item>
+        <item>GAYATRI NAGAR</item>
+        <item>TKR KAMAN</item>
+        <item>MANDA MALLAMA GARDENS</item>
+        <item>OWAISI</item>
+        <item>MIDHANI DEPOT</item>
+        <item>CHANDRAYANAGUTTA</item>
+        <item>RAJENDRA NAGAR</item>
+    </string-array>
+
+    <string-array name="array_route21_names">
+        <item>Select Your Bus Stop</item>
+        <item>SHADNAGAR</item>
+        <item>NANDIGAMA</item>
+        <item>KOTHUR</item>
+        <item>PEDDASHAPUR</item>
+        <item>THONDAPALLI</item>
+        <item>SHAMSHABAD</item>
+        <item>SIDHANKI</item>
+        <item>GAGANPAHAD</item>
+        <item>ARAMGHAR</item>
+        <item>RAJENDRA NAGAR</item>
+        <item>HIMAYATH SAGAR</item>
+        <item>APPA JUNCTION</item>
+    </string-array>
+
+    <string-array name="array_route22_names">
+        <item>Select Your Bus Stop</item>
+        <item>DILSHUKNAGAR SAI BABA TEMPLE</item>
+        <item>KAMALA HOSPITAL</item>
+        <item>MALAKAPET P.S</item>
+        <item>NEW MARKET METRO</item>
+        <item>METRO PILLER NO: 15</item>
+        <item>CHADHAR GHAT P.S</item>
+        <item>CHADHAR GHAT BUSTAND</item>
+        <item>GPO CIRCLE</item>
+        <item>PILLER NO:67</item>
+        <item>PILLER NO. 84</item>
+        <item>PILLER NO.103</item>
+        <item>PILLER NO.119</item>
+        <item>PILLER NO.126</item>
+        <item>PILLER NO.143</item>
+        <item>PILLER NO.154</item>
+        <item>PILLER NO.175</item>
+        <item>PILLER NO.202</item>
+        <item>BANSILAL NAGAR(BUDVEL)</item>
+        <item>KALIMANDIR (GIRLS HOSTEL)</item>
+    </string-array>
+
+    <string-array name="array_route23_names">
+        <item>Select Your Bus Stop</item>
+        <item>VIKARABAD-OLD GUNJ</item>
+        <item>B T S COLONY</item>
+        <item>SHIVARAM NAGAR</item>
+        <item>ANNEPALLY</item>
+        <item>CHEVELLA</item>
+        <item>KANAKA MAMIDI</item>
+        <item>KLH BOYS HOSTEL</item>
+    </string-array>
+
+    <string-array name="array_route24_names">
+        <item>Select Your Bus Stop</item>
+        <item>PRASHANTH NAGAR</item>
+        <item>KALYANI BUILDINIG</item>
+        <item>BANDLAGUDA JAGIR CENTER</item>
+        <item>KALIMANDIR (GIRLS HOSTEL)</item>
+    </string-array>
+
+    <string-array name="array_route25_names">
+        <item>Select Your Bus Stop</item>
+        <item></item>
+    </string-array>
+
+    <string-array name="array_route26_names">
+        <item>Select Your Bus Stop</item>
+        <item>SADASIVA PETA</item>
+        <item>SANGA REDDY X ROADS</item>
+        <item>ISNAPUR</item>
+        <item>MUTHANGI</item>
+        <item>LINGAMPALLY</item>
+        <item>NALLAGANDLA MORE SUPER MARKET</item>
+        <item>TELLAPUR X ROADS</item>
+        <item>APARNA (VIJETHA SUPER MARKET)</item>
+        <item>GOPPANA PALLI</item>
+        <item>GOWLI DODDI</item>
+        <item>FINANCIAL DISTRICT</item>
+        <item>KOKAPET SERVICE ROAD</item>
+    </string-array>
+    <string name="title_activity_driver_maps">DriverMapsActivity</string>
+    <string name="students_details">Students Details</string>
+</resources>

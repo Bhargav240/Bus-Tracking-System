@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DriverMapsActivity">
+
+    <!-- SupportMapFragment -->
+    <fragment
+        android:id="@+id/drivermaps"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Linear layout on top -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:id="@+id/driverID"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:paddingStart="10dp"
+            android:layout_marginStart="10dp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="@color/maroon_500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Driver ID:211013" />
+
+        <TextView
+            android:id="@+id/DriverRoute"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:layout_marginStart="10dp"
+            android:paddingStart="10dp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="@color/maroon_500"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bus Route No. 13" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switch1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:thumb="@drawable/thumb"
+            app:track="@drawable/track"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            app:showText="true"
+            android:textSize="30sp"
+            android:textColor="#3F51B5"
+            android:text="Location Sharing  " />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/DLogout"
+            app:cornerRadius="50dp"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout" />
+
+    </LinearLayout>
+</FrameLayout>

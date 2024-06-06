@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "782293009501",
+    "project_id": "klhbusmobileapp",
+    "storage_bucket": "klhbusmobileapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782293009501:android:8801363775547a11ec79b4",
+        "android_client_info": {
+          "package_name": "com.example.busmobileapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDEfuaQBDeZ_ZACqe3rvSiFczvaWeyWOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

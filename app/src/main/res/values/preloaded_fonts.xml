@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abhaya_libre_semibold</item>
+        <item>@font/alegreya_sc_bold_italic</item>
+        <item>@font/allura</item>
+        <item>@font/arizonia</item>
+        <item>@font/baloo_thambi</item>
+        <item>@font/baskervville</item>
+        <item>@font/biryani_semibold</item>
+        <item>@font/jacques_francois_shadow</item>
+        <item>@font/ubuntu_medium</item>
+    </array>
+</resources>

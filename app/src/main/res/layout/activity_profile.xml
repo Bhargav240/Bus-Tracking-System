@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student.ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ProgressBar
+            android:id="@+id/progressBarD"
+            android:background="@color/maroon_500"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="true"
+            android:indeterminateTint="#FF9800"
+            android:visibility="gone"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        />
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_marginBottom="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <View
+                android:id="@+id/topview"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/maroon_500"
+                />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:background="@drawable/wave66"
+                android:rotationX="-180"
+                android:layout_below="@id/topview" />
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="55dp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:text="Profile"
+                android:textColor="@color/white"
+                android:textSize="52sp"
+                android:textStyle="normal"
+                android:layout_alignParentTop="true"
+                />
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="30dp"
+                android:layout_marginEnd="40dp"
+                app:srcCompat="@drawable/ic_baseline_person_24" /><!-- Added layout_below attribute -->
+
+        </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/text111"
+                android:padding="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="8dp"
+                android:layout_marginStart="18dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="22sp"
+                android:fontFamily="@font/ubuntu_medium"
+                android:textColor="#04177E"
+                android:text="Name:" />
+            <TextView
+                android:id="@+id/displayname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/textbg"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="20dp"
+                android:textSize="20sp"
+                android:padding="9dp"
+                android:textColor="#DA4516"
+                android:hint="Loading...." />
+
+        <TextView
+            android:id="@+id/teemx11"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="22sp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="#04177E"
+            android:text="Email Address:" />
+        <TextView
+            android:id="@+id/displaymail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbg"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="20sp"
+            android:padding="9dp"
+            android:textColor="#DA4516"
+            android:hint="Loading...." />
+        <TextView
+            android:id="@+id/tex11"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="22sp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="#04177E"
+            android:text="University ID Number:" />
+        <TextView
+            android:id="@+id/displayroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbg"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="20sp"
+            android:padding="9dp"
+            android:textColor="#DA4516"
+            android:hint="Loading...." />
+        <TextView
+            android:id="@+id/tedx11"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="22sp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="#04177E"
+            android:text="Bus Route Number:" />
+        <TextView
+            android:id="@+id/displayroute"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbg"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="20sp"
+            android:padding="9dp"
+            android:textColor="#DA4516"
+            android:hint="Loading...." />
+        <TextView
+            android:id="@+id/tex1541"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="22sp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="#04177E"
+            android:text="Bus Stop Name:" />
+        <TextView
+            android:id="@+id/displaystop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbg"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="20sp"
+            android:padding="9dp"
+            android:textColor="#DA4516"
+            android:hint="Loading...." />
+
+        <TextView
+            android:id="@+id/textph"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="22sp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="#04177E"
+            android:text="Phone Number:" />
+        <TextView
+            android:id="@+id/displayph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbg"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="20sp"
+            android:padding="9dp"
+            android:textColor="#DA4516"
+            android:hint="Loading...." />
+        <TextView
+            android:id="@+id/busspasst"
+            android:padding="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="18dp"
+            android:layout_marginEnd="20dp"
+            android:textSize="22sp"
+            android:fontFamily="@font/ubuntu_medium"
+            android:textColor="#04177E"
+            android:text="Bus Pass Status:" />
+        <TextView
+            android:id="@+id/statusbus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/textbg"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="20sp"
+            android:padding="9dp"
+            android:textColor="#DA4516"
+            android:hint="Loading...." />
+
+
+    </LinearLayout>
+
+
+</ScrollView>
